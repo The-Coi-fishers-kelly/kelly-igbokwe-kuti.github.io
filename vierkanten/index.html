@@ -1,19 +1,25 @@
+<!-- Oefening met CSS-klassen: vorm en kleur worden los van elkaar toegekend. -->
 <!DOCTYPE html>
 <html>
 <head>
     <title>Vierkanten en rechthoeken</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- styles.css bevat de afmetingen van de vormen en de achtergrondkleuren. -->
+<link rel="stylesheet" href="styles.css">
 </head>
   
 <body>
 
     <h1>Vierkanten en rechthoeken</h1>
   
+    <!-- Twee classes: .vierkant geeft breedte/hoogte, .rood geeft de kleur. -->
+    <!-- Een lege div kan toch zichtbaar zijn dankzij CSS-breedte en -hoogte. -->
     <div class="vierkant rood"></div>
+    <!-- Dit vierkant heeft geen kleurclass en is daarom alleen een omlijnd vak. -->
     <div class="vierkant"></div>
     <div class="vierkant blauw"></div>
     <div class="vierkant geel"></div>
     <div class="vierkant groen"></div>
+    <!-- Rechthoeken delen de kleurclasses met vierkanten, maar krijgen andere afmetingen. -->
     <div class="rechthoek"></div>
     <div class="rechthoek zwart"></div>
     <div class="rechthoek rood"></div>
