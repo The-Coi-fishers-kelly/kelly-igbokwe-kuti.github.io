@@ -1,7 +1,10 @@
+/* Een punt selecteert een class. Alleen elementen met class="border" krijgen deze rand. */
 .border {
+  /* border = dikte, lijntype en kleur. margin = ruimte BUITEN de rand. */
   border: 2px solid fuchsia;
   margin: 10px
 }
+/* Deze selector verandert de kleur van de horizontale <hr>-scheidingslijn. */
 hr {
   color: fuchsia;
 }
