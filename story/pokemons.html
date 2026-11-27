@@ -1,15 +1,19 @@
+<!-- Oudere Pokémon-tabel: table bevat rijen (<tr>), kopcellen (<th>) en gewone cellen (<td>). -->
 <!DOCTYPE html>
 <html>
   <head>
       <title>Pokemons</title>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="styles.css">
+      <!-- Het stylesheet tekent onder meer de tabelranden en bepaalt de tekstuitlijning. -->
+<link rel="stylesheet" href="styles.css">
       </head>
     <body>
       
- <img src="images/banner.png" id="banner">
+ <!-- img toont een afbeelding uit een relatieve map: story/images. -->
+<img src="images/banner.png" id="banner">
     
+<!-- AANDACHTSPUNT: classnamen scheiden met een spatie; id="banner" is niet uniek. -->
 <div class="rechthoek, achtergrond-geel" id="banner">
     
 <div class="balk">
@@ -19,7 +23,8 @@
 </div>
 </div>
       
-      <table>
+      <!-- De koprij noemt de eigenschappen; iedere volgende rij hoort één Pokémon te bevatten. -->
+<table>
   <tr>
     <th>ID</th>
     <th>Name</th>
@@ -32,14 +37,17 @@
   <tr>
     <td>1</td>
     <td>Bulbasaur</td>
-    <td>temporary image</td>
+    <!-- TODO: tijdelijke tekst; voeg alleen de bedoelde afbeelding toe zodra de opdracht bekend is. -->
+<td>temporary image</td>
     <td>grass</td>
     <td>poison</td>
     <td>45</td>
     <td>30</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
+    <!-- TODO: deze voorbeeldrij hoort niet bij Pokémon en heeft niet het juiste aantal cellen.
+     Niet blind ingevuld omdat de originele leerkrachtopdracht ontbreekt. -->
+<td>Centro comercial Moctezuma</td>
     <td>Francisco Chang</td>
     <td>Mexico</td>
   </tr>
