@@ -1,27 +1,36 @@
+<!-- W3.CSS-oefening: bestaande CSS-klassen worden gebruikt om een kaart op te maken. -->
 <!DOCTYPE html>
 <html>
   <head>
       <title>W3.CSS</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+      <!-- Externe W3.CSS-bibliotheek: w3-bar, w3-container en w3-card-4 staan niet in dit project zelf. -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
       </head>
     <body>
 
-      <div class="w3-bar w3-orange">
+      <!-- Twee classes: w3-bar maakt een balk, w3-orange geeft die een kleur. -->
+<div class="w3-bar w3-orange">
         <div class="w3-bar-item">Homepage</div>
       </div>
 
+<!-- w3-container voegt standaardruimte toe zodat inhoud niet tegen de rand staat. -->
 <div class="w3-container">
      <h2>Welcome</h2>
-  <div class="w3-align-center">
-          <div class="w3-card-4">
-          <img src="images/025.png" alt="Avatar" style="width:50%">
+  <!-- De uitlijning van inhoud komt hier uit een bestaande W3.CSS-class. -->
+<div class="w3-align-center">
+          <!-- w3-card-4 geeft de kaart een schaduw. -->
+<div class="w3-card-4">
+          <!-- Het pad verwijst naar een afbeelding in de map w3css/images; width:50% is een inline stijl. -->
+<img src="images/025.png" alt="Avatar" style="width:50%">
                <div class="w3-container">
                <h3>pikachu</h3>
                 <p class="w3-text-gray">#001</p>
-                <p class="w3-button w3-yellow w3-round-xxlarge">Grass</p>
+                <!-- Dit is een p-element dat er dankzij CSS als een knop uitziet; er is geen klikgedrag. -->
+<p class="w3-button w3-yellow w3-round-xxlarge">Grass</p>
                 <p>HP 45 - Speed  45</p>
-            <p>Architect and Engineer</p>
+            <!-- TODO: deze tekst lijkt voorbeeldinhoud en hoort niet bij de Pokémon-kaart. -->
+<p>Architect and Engineer</p>
          <p><button class="w3-button w3-black">Contact</button></p>
           </div>
                 </div>

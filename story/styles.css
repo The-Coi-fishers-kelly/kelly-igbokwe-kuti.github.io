@@ -1,24 +1,30 @@
+/* * is de universele selector: Verdana geldt standaard voor alle elementen. */
 * {
 	font-family: verdana;
 }
+/* :any-link kiest zowel bezochte als onbezochte hyperlinks. */
 a:any-link {
 	text-decoration-line: none;
 	color: black;
 }
+/* max-width + automatische marges centreren het document. */
 body {
 	max-width: 980px;
 	margin-left: auto;
 	margin-right: auto;
 }
+/* Deze achtergrond geldt alleen als de body ook id="background" heeft. */
 body#background {
 	background-image: url("img/001.png");
 	background-position: center;
 	background-repeat: no-repeat;
 }
+/* # selecteert een id; gebruik dezelfde id niet tweemaal in hetzelfde HTML-document. */
 #banner {
 	width: 100%;
 }
 
+/* Breedte + padding bepalen samen hoeveel ruimte het element inneemt. */
 .rechthoek{
   width: 980px;
   height: 50px;
@@ -30,6 +36,7 @@ body#background {
   background-color: red;
 }
 
+/* Herbruikbare basisvorm voor meerdere kaarten. */
 .pokemonkaart {
     border: 0px;
     border-radius: 10px;
@@ -42,6 +49,7 @@ body#background {
 .pokemonkaart * {
     text-align: center;
 }
+/* Een class-selector begint met een punt; gebruik class="rechthoek achtergrond-geel". */
 .achtergrond-geel {
     background-color: rgb(247,218,92);
 	height: 30px;
@@ -67,6 +75,7 @@ h2 {
     /* text-align: center; */
 }
 
+/* Geel, afgerond label dat als Pokémon-type kan dienen. */
 .type1 {
     font-weight: bold;
     color: black;
@@ -91,10 +100,12 @@ p {
     text-align: left;
 }
 
+/* De links worden gecentreerd met de class balk uit HTML. */
 .balk {
 	text-align: center;
 }
 
+/* De tabel en al haar cellen krijgen randen; border-collapse voegt ze samen. */
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;

@@ -1,21 +1,26 @@
+/* * is de universele selector: Verdana wordt het lettertype voor alle elementen. */
 * {
     font-family: verdana;
 }
 
 
 
+/* Elke kaart krijgt een breedte, binnenruimte (padding) en afgeronde hoeken. */
 .pokemonkaart {
     border: 0px;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
     width: 250px;
+    /* float:left laat kaarten naast elkaar plaatsen zolang er voldoende ruimte is. */
     float: left;
 }
 
+/* De spatie betekent: alle elementen BINNEN .pokemonkaart centreren hun tekst. */
 .pokemonkaart * {
     text-align: center;
 }
+/* Via een tweede class kan je een kaart geel of groen maken zonder HTML te dupliceren. */
 .achtergrond-geel {
     background-color: rgba(255, 255, 198, 1);
 }
@@ -24,6 +29,7 @@
     background-color: rgba(202, 255, 196, 1); 
 }
 
+/* Koppen hebben eigen marges en lettergroottes, los van het universele lettertype. */
 h1 {
     font-size: 24px;
     margin: 5px;
@@ -37,10 +43,12 @@ h4 {
     /* text-align: center; */
 }
 
+/* Deze algemene regel maakt alle plaatjes 215px breed, ook in toekomstige kaarten. */
 img {
     width: 215px;
 }
 
+/* Een type-label: padding is binnenruimte; border-radius geeft afgeronde hoeken. */
 .type1 {
     font-weight: bold;
     color: black;
@@ -51,6 +59,7 @@ img {
     width: 100px
 }
 
+/* type2 deelt de structuur met type1 maar gebruikt groene achtergrondkleur. */
 .type2 {
     font-weight: bold;
     color: black;

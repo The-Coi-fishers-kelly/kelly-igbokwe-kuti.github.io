@@ -1,19 +1,26 @@
+<!-- Oefening met Pokémon-kaarten: per kaart worden dezelfde HTML-elementen en CSS-classes hergebruikt. -->
 <!DOCTYPE html>
 <html lang="en">
+<!-- CSS is apart gehouden om meerdere kaarten via dezelfde klassen vorm te geven. -->
 <link rel="stylesheet" href="styles.css">
 <body>
-    <div class="pokemonkaart achtergrond-geel">
+    <!-- Een element kan meerdere klassen hebben: .pokemonkaart regelt vorm, .achtergrond-geel de kleur. -->
+<div class="pokemonkaart achtergrond-geel">
         <h1>Pikachu</h1>
-        <h4>#0025</h4>
+        <!-- De h4-regel toont een kaartnummer. De afbeelding gebruikt een relatief pad naar image/025.png. -->
+<h4>#0025</h4>
         <p><img src="image/025.png"></p>
-        <p class="type1">Electric</p>
+        <!-- class="type1" maakt van deze paragraaf een gestileerd type-label. -->
+<p class="type1">Electric</p>
         <p>35 HP - 90 speed</p>
     </div>
-    <div class="pokemonkaart achtergrond-groen">
+    <!-- Dezelfde kaartstijl is hergebruikt met een andere achtergrondkleur voor Bulbasaur. -->
+<div class="pokemonkaart achtergrond-groen">
         <h1>Bulbasaur</h1>
         <h4>#0001</h4>
         <p><img src="image/001.png"></p>
-        <p class="type2">Grass</p>
+        <!-- .type2 heeft in CSS een groene achtergrond: dezelfde inhoudsstructuur, andere vormgeving. -->
+<p class="type2">Grass</p>
         <p>45 HP - 45 speed</p>
     </div>
 </body>
