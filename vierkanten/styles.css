@@ -1,13 +1,16 @@
+/* Alle elementen met class="vierkant" zijn 100x100px met een zwarte rand. */
 .vierkant{
   width: 100px;
   height: 100px;
   border: 1px solid black;
 }
 
+/* Kleur is een losse class zodat dezelfde class bij meer dan één vorm werkt. */
 .rood{
   background-color: red;
 }
 
+/* Achtergrondkleuren veranderen het vlak, niet de rand. */
 .geel{
    background-color: yellow;
 }
@@ -24,6 +27,7 @@
    background-color: black;
 }
 
+/* De rechthoek is 200px breed en 50px hoog: dus niet vierkant. */
 .rechthoek{
   width: 200px;
   height: 50px;
