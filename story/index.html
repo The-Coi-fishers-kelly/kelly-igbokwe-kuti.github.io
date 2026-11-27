@@ -1,16 +1,22 @@
+<!-- Oudere oefenversie van de Pokémon-verhaalwebsite: HTML geeft structuur, styles.css de vorm. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Pokemon Story</title>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Het relatieve pad verwijst naar story/styles.css. -->
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
- <img src="images/banner.png" id="banner">
+ <!-- Bannerafbeelding uit de map images; de id banner bepaalt CSS-opmaak. -->
+<img src="images/banner.png" id="banner">
     
+<!-- AANDACHTSPUNT: classnamen scheid je met SPATIES, niet met een komma.
+     Ook komt id="banner" hier een tweede keer voor, terwijl een id uniek hoort te zijn. -->
 <div class="rechthoek, achtergrond-geel" id="banner">
     
+<!-- De drie anker-elementen linken naar andere bestanden in dezelfde map. -->
 <div class="balk">
 <a href="index.html">story</a>
 <a href="pokemons.html">pokemons</a>
@@ -18,10 +24,12 @@
 </div>
 </div>
     
+<!-- <h1> is de hoofdkop; <h2>-koppen verdelen de lange tekst in delen. -->
 <h1>The Story of
 How Pokémon Was Founded 🌍⚡
 </h1>
     
+<!-- <p> maakt een alinea met eigen afstanden; het is geen losse tekstregel. -->
 <h2>Hey everyone!</h2>
     
 <p> I thought it would be fun to share the story of how Pokémon actually got started. A lot of us grew up with it, but the origin is really inspiring.</p>
